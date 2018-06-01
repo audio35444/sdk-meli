@@ -1,0 +1,9 @@
+{
+  "root-endpoint":"https://api.mercadolibre.com/",
+  "paths":{
+    "site":"sites/",
+    "category":"sites/{Site_id}/categories",
+    "categoryDetail":"sites/{Site_id}/search?category={Category_id}",
+    "item":"items/{Item_id}"
+  }
+}

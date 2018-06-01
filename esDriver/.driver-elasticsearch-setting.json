@@ -1,0 +1,9 @@
+{
+  "root-endpoint":"http://localhost",
+  "port":":9200/",
+  "indices-show":"_cat/indices?v",
+  "doc-index":"{index_name}/_doc/{id}?pretty",
+  "index-name":"{index_name}?pretty",
+  "doc-update":"{index_name}/_doc/{id}/_update?pretty",
+  "doc-search":"{index_name}/_search?pretty"
+}
